@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#two {
+  background: /*linear-gradient(rgba(0, 0, 255, 0.5), rgba(0, 0, 0, 0.5)),*/ url(./big.jpeg);
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+#one {
+  width: 80%;
+  height: 80%;
+  margin: 0 auto;
+  padding: 100px;
+  padding-left: 150 px;
+}
+
+h1 {
+  font-size: 100px;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: "Courier New", Courier, monospace;
+  letter-spacing: 2px;
+  font-size: 20px;
+  /* color: rgba(0, 0, 255, 0.9); */
+  line-height: 2rem;
+}
+
+input {
+  width: 500px;
+  height: 30px;
+  border: 1.5px blue solid;
+  border-radius: 5px;
+  margin-left: 70px;
+}
+
+button {
+  width: 100px;
+  height: 30px;
+  border: 1.5px blue solid;
+  border-radius: 5px;
+  margin-left: 30px;
+  background-color: black;
+  color: white;
+}
+
+#one ul {
+  width: 20%;
+  margin: 0 auto;
+  font-size: 20px;
+  text-transform: capitalize;
+  padding-top: 20px;
+  letter-spacing: 2px;
+}
